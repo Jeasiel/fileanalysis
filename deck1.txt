@@ -1,0 +1,84 @@
+1 Inspiring Leader
+1 Prava of the Steel Legion
+1 Raugrin Crystal
+1 Steel-Plume Marshal
+1 Negate
+1 Arcane Signet
+1 Deflecting Palm
+1 Curse of Opulence
+12 Plains
+1 Winged Words
+1 Temple of the False God
+1 Jeskai Charm
+1 Cartographer's Hawk
+1 Emeria Angel
+1 Junk Winder
+1 Castle Embereth
+1 Idol of Oblivion
+1 Jeskai Banner
+1 Lofty Denial
+1 Kher Keep
+1 Shivan Reef
+1 Gravitational Shift
+1 Adarkar Wastes
+1 Serra the Benevolent
+1 Theoretical Duplication
+1 Ravenform
+1 White Sun's Twilight
+1 Donal, Herald of Wings
+1 Devout Invocation
+1 Nesting Dovehawk
+1 Enchanter's Bane
+1 Jubilant Skybonder
+1 Soulcatchers' Aerie
+1 Skycat Sovereign
+1 Battlefield Forge
+1 Keeper of the Accord
+1 Felidar Retreat
+1 Intangible Virtue
+1 Neyali, Suns' Vanguard
+1 Day of the Dragons
+1 Sol Ring
+1 Distant Melody
+1 Sephara, Sky's Blade
+1 Inspired Ultimatum
+1 Mystic Monastery
+1 Perplexing Test
+1 Loyal Apprentice
+1 Windbrisk Heights
+1 Path to Exile
+1 Serra Redeemer
+1 Roar of Resistance
+1 Infested Fleshcutter
+1 Hour of Reckoning
+1 Anointer Priest
+1 Blade of Shared Souls
+1 Kangee, Sky Warden
+1 Finale of Glory
+1 Outlaws' Merriment
+1 Seaside Haven
+1 Watcher of the Spheres
+1 Moorland Haunt
+1 Gust of Wind
+1 Curiosity Crafter
+1 Skyknight Vanguard
+1 Skrelv's Hive
+1 Prosperous Partnership
+7 Island
+1 Mite Overseer
+1 Path of Ancestry
+1 Generous Gift
+1 Dismantling Wave
+1 Warden of Evos Isle
+1 Command Tower
+1 Mu Yanling, Celestial Wind
+1 The Council of Four
+1 Court of Grace
+1 Halo Fountain
+1 Rumor Gatherer
+4 Mountain
+
+// Commander
+1 Akim, the Soaring Wind
+
+// Outside the Game
