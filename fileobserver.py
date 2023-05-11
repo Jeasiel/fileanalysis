@@ -1,7 +1,8 @@
 def fileIntoList(nome):
     lista = []
     file = open(nome, "r")
-    for i in file:
+    for k in file:
+        i = removeSpace(k)
         if i[-1] == "\n" and i[:2] != "//":
             if i != "\n":
                 lista.append(i[:-1])
@@ -9,6 +10,15 @@ def fileIntoList(nome):
             lista.append(i)
     file.close()
     return lista
+
+def removeSpace(linha):
+    try:
+        if linha[0] == " ":
+            while linha[0] == " ":
+                linha = linha[1:]
+    except:
+        print("Linha Errada = " + linha)
+    return linha 
 
 def compararListaDif(l1, l2):
     for i in l1:
@@ -48,10 +58,10 @@ def retornarPorcentagem(n1, n2):
 lista1 = fileIntoList("deck1.txt")
 lista2 = fileIntoList("deck2.txt")
 
-#print("Linha(s) diferente(s) no arquivo 1: ")
-#compararListaDif(lista1, lista2)
-#print("Linha(s) diferente(s) no arquivo 2: ")
-#compararListaDif(lista2, lista1)
+print("Linha(s) diferente(s) no arquivo 1: ")
+compararListaDif(lista1, lista2)
+print("Linha(s) diferente(s) no arquivo 2: ")
+compararListaDif(lista2, lista1)
 
-print("Linhas iguais: ")
-compararListaIg(lista1, lista2)
+#print("Linhas iguais: ")
+#compararListaIg(lista1, lista2)
