@@ -2,25 +2,23 @@ def fileIntoList(nome):
     lista = []
     file = open(nome, "r")
 
-    for i in file: #i é string
+    for i in file:
         flag = True
-        linha = i.split(" ") #linha é lista
+        linha = i.split(" ")
         try:
             int(linha[0])
         except:
             flag = False
         if flag:
-            for j in range(int(linha[0])):
-                if i[-1] == "\n":
-                    trat = linha[1:-1]
-                    trat.append(linha[-1][:-1])
-                    lin = ""
-                    for k in trat:
-                        lin += k + " "
-                    lista.append(lin)
-                else:
-                    lista.append(i)
-        print(linha)
+            if i[-1] == "\n":
+                trat = linha[:-1]
+                trat.append(linha[-1][:-1])
+                lin = ""
+                for k in trat[1:]:
+                    lin += k + " "
+                lista.append([trat[0], lin[:-1]])
+            else:
+                lista.append(i)
 
     file.close()
     return lista
@@ -51,25 +49,12 @@ def compararListaIg(l1, l2):
                         break
                     else:
                         listaIguais.append(i)
-    lastInd = 0
-    listaOrgIg = []
-    rep = 1
-    first = True
-    for i in listaIguais:
-        if first == True:
-            listaOrgIg.append(i)
-            first = False
-        else:
-            if i == listaOrgIg[lastInd] or i == str(rep) + " " + listaOrgIg[lastInd]:
-                rep += 1
-                listaOrgIg[lastInd] = str(rep) + " " + listaOrgIg[lastInd]
-            else:
-                rep = 0
-                listaOrgIg.append(i)
-                lastInd += 1
 
-    for i in listaOrgIg:
-        print(i)
+    for i in listaIguais:
+        if int(i[0]) > 1: 
+            print(i[0] + " " + i[1])
+        else:
+            print(i[1])
 
     if len(l1) != 0 and len(l2) != 0:    
         print(f"Porcentagem de linhas iguais no arquivo 1: {retornarPorcentagem(len(listaIguais), len(l1)):.2f}%. Porcentagem no arquivo 2: {retornarPorcentagem(len(listaIguais), len(l2)):.2f}%.")
